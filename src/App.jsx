@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <Counter/>
+      <Counter/>
     </div>
   )
 }
@@ -15,7 +16,7 @@ function Counter() {
   return (
     <div>
       <h1>Counter: {count}</h1>
-      <button 
+      <button
         onClick={ () => setCount( prev => prev + 1 ) }>
           증가
       </button>
